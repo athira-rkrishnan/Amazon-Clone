@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Header Section Start -->
+    <div class = "header">
+        <div class = "logo">
+            <img src = "images/AmazonLogo.png">
+        </div>
+        <div class = "locationUpdate">
+            <div class = "icon">
+               <img src = "images/location.png">
+            </div>
+            <div>
+                <p class = "loctn-deliver">Deliver to</p>
+                <p class = "loctn-name"><b>India</b></p>
+            </div>
+        </div>
+        <div class = "searchbox">
+            <div class = "dropdown1">
+                <button class = "dropbtn1" onclick = "openDropContent()">All<i class="fa fa-caret-down droparrw"></i></button>
+                <div class = "dropdown-content1" id = "drop-content">
+                    <li><a href = "#">All Catgories</a></li>
+                    <li><a href = "#">Alexa Skills</a></li>
+                    <li><a href = "#">Amazon Devices</a></li>
+                    <li><a href = "#">Amazon Fashion</a></li>
+                    <li><a href = "#">Amazon Fresh</a></li>
+                    <li><a href = "#">Amazon Pharmacy</a></li>
+                    <li><a href = "#">Appliances</a></li>
+                    <li><a href = "#">Apps & Games</a></li>
+                    <li><a href = "#">Audible Audiobooks</a></li>
+                    <li><a href = "#">Baby</a></li>
+                    <li><a href = "#">Beauty</a></li>
+                    <li><a href = "#">Books</a></li>
+                    <li><a href = "#">Car & Motorbike</a></li>
+                    <li><a href = "#">Clothing & Accessories</a></li>
+                    <li><a href = "#">Collectibles</a></li>
+                    <li><a href = "#">Computers & Accessories</a></li>
+                    <li><a href = "#">Deals</a></li>
+                    <li><a href = "#">Electronics</a></li>
+                    <li><a href = "#">Furniture</a></li>
+                    <li><a href = "#">Garden & Outdoors</a></li>
+                    <li><a href = "#">Gift Cards</a></li>
+                    <li><a href = "#">Grocery & Gourmet Foods</a></li>
+                    <li><a href = "#">Health & Personal Care</a>
+                    <li><a href = "#">Home & Kitchen</a></li>
+                    <li><a href = "#">Industrial & Scientific</a></li>
+                    <li><a href = "#">Jewellery</a></li>
+                    <li><a href = "#">Kindle Store</a></li>
+                    <li><a href = "#">Luggage & Bags</a></li>
+                    <li><a href = "#">Luxury Beauty</a></li>
+                    <li><a href = "#">Movies & TV Shows</a></li>
+                    <li><a href = "#">MP3 Music</a></li>
+                    <li><a href = "#">Music</a></li>
+                    <li><a href = "#">Musical Instruments</a></li>
+                    <li><a href = "#">Office Products</a></li>
+                    <li><a href = "#">Pet Supplies</a></li>
+                    <li><a href = "#">Prime Video</a></li>
+                    <li><a href = "#">Shoes & Handbags</a></li>
+                    <li><a href = "#">Software</a></li>
+                    <li><a href = "#">Sports, Fitness & Outdoors</a></li>
+                    <li><a href = "#">Subscribe & Save</a></li>
+                    <li><a href = "#">Tools & Home Improvement</a></li>
+                    <li><a href = "#">Toys & Games</a></li>
+                    <li><a href = "#">Under ₹500</a></li>
+                    <li><a href = "#">Video Games</a></li>
+                    <li><a href = "#">Watches</a></li>
+                </div>   
+            </div>
+            <input type = "text" class = "input-search" placeholder = "Search Amazon" name = "search"/>
+            <button type = "submit" class = "search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class = "dropdown2">
+            <span>
+                <button class = "dropbtn"><img src = "images/usflag.png" style = "width: 20px;">EN</button>
+            </span>   
+            <div>
+                <i class="fa-solid fa-caret-down flagdrop"></i>
+            </div>
+            <i class="fa-solid fa-sort-up uparrw"></i>
+            <div class = "dropdown-content2">
+                <p>Change language</p>
+                <ul>
+                    <li><input type = "radio" id = "eng" name = "lang"><label href = "#" for = "eng">English - EN</label></li>
+                    <hr>
+                </ul>
+                <ul class = "unorder">
+                    <li><input type = "radio" id = "esp" name = "lang"><label href = "#" for = "esp">español - ES</label></li>
+                    <li><input type = "radio" id = "ar" name = "lang"><label href = "#" for = "ar">العربية - AR</labek></li>
+                    <li><input type = "radio" id = "de" name = "lang"><label href = "#" for = "de">Deutsch - DE</label></li>
+                    <li><input type = "radio" id = "he" name = "lang"><label href = "#" for = "he">עברית - HE</label></li>
+                    <li><input type = "radio" id = "ko" name = "lang"><label href = "#" for = "ko">한국어 - KO</label></li>
+                    <li><input type = "radio" id = "pt" name = "lang"><label href = "#" for = "pt">português - PT</label></li>
+                    <li><input type = "radio" id = "zh" name = "lang"><label href = "#" for = "zh">中文 (简体) - ZH</label></li>
+                    <li><input type = "radio" id = "zhu" name = "lang"><label href = "#" for = "zhu">中文 (繁體) - ZH</label></li>
+                    <hr>
+                </ul>
+                <ul>
+                    <p class = "currTxt">Change currency</p>
+                    <li><input type = "radio" name = "curr"><label href = "#">₹ - INR - Indian Rupee</label></li>
+                    <li><input type = "radio" name = "curr"><label href = "#">$ - USD - US Dollar</label></li>
+                </ul>
+                <a href = "#" class = "skytxt">See all</a>
+                <hr>
+                <p class = "shoptxt"><img src = "images/usflag.png" style = "width: 20px;">You are shopping on <br>Amazon.com</p>
+                <a href = "#" class = "skytxt cntrytxt">Change country / region</a>
+            </div>  
+        </div>
+        <div class = "acctlistdropdown">
+            <span>
+                <button class = "acctInput"><p class = "hellotxt">Hello, sign in</p><p class = "acct"><b>Account & Lists</b></p></button>
+            </span>
+            <i class="fa-solid fa-caret-down acctdrop"></i>
+            <i class="fa-solid fa-sort-up uparrw"></i>
+            <div class = "dropdown-content3">
+                <div class = "custSignin">
+                    <button><a>Sign in</a></button>
+                    <p>New customer? <a>Start here</a></p>
+                </div>
+                <hr>
+                <div class = "acct-cols">
+                    <div class = "sign-col1">
+                        <p>Your Lists</p>
+                        <ul>
+                            <li>Create a List</li>
+                            <li>Find a List or Registry</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class = "sign-col2">
+                        <p>Your Account</p>
+                        <ul>
+                            <li>Account</li>
+                            <li>Orders</li>
+                            <li>Recommendations</li>
+                            <li>Browsing History</li>
+                            <li>Your Shopping preferences</li>
+                            <li>Watchlist</li>
+                            <li>Video Purchases & Rentals</li>
+                            <li>Kindle Unlimited</li>
+                            <li>Content & Devices</li>
+                            <li>Subscribe & Save Items</li>
+                            <li>Memberships & Subscriptions</li>
+                            <li>Music Library</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class = "returnOrders">
+            <p class = "rtnTxt">Returns</p>
+            <p><b>& Orders</b></p>
+        </button>
+        <div class = "cart">
+             <img src = "images/carticon.png"><p class = "cartTxt"><b>Cart</b></p>
+        </div>
+    </div>
+<!-- Header Section End -->
+
+
+
+
+    <script src = "script.js"></script>
+    
+</body>
+</html>
