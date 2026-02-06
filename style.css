@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -427,3 +429,42 @@ body {
     margin-top: 12px;
 }
 
+/* Main Container Section Start */
+.m-container {
+    width: 100vw;
+    background-color: #1c2632;
+}
+/* Navbar Section Start */
+.navbar {
+    width: 98vw;
+    height: 41px;
+    margin: auto;
+    background-color: #1c2632;
+}
+.navbar button {
+    background-color: #1c2632;
+    font-size: 16px;
+    color: white;
+    padding: 10px 7px;
+    border: none;
+    outline: none;
+}
+.navbar button:hover {
+    border: 1px solid rgb(62, 61, 61);
+}
+.navbar button span {
+    margin-left: 3px;
+    font-family: "Exo 2", sans-serif;
+}
+.navbar a {
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #1c2632;
+    padding: 11px 7px;
+    margin: 0px 3px;
+}
+.navbar a:hover {
+    border: 1px solid rgb(62, 61, 61);
+}
