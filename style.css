@@ -9,6 +9,9 @@ body {
     width: 100vw;
     font-family:Arial, Helvetica, sans-serif;
 }
+body, html {
+     overflow-x:hidden;
+} 
 /* Header Section Start */
 .header {
     width: 100vw;
@@ -21,6 +24,7 @@ body {
 .header .logo {
     width: 120px;  
     margin-bottom: 15px;
+    margin-left: 5px;
 }
 .header .logo img {
     width: 115px;
@@ -190,6 +194,7 @@ body {
     position: absolute;
     top: 58px;
     display: none;
+    z-index: 1;
 }
 .dropdown2:hover .dropdown-content2 {
     display: block;
@@ -304,6 +309,7 @@ body {
     top: 57px;
     left: -276px; 
     display: none;
+    z-index: 1;
 }
 .acctlistdropdown:hover .dropdown-content3 {
     display: block;
@@ -431,12 +437,12 @@ body {
 
 /* Main Container Section Start */
 .m-container {
-    width: 100vw;
-    background-color: #1c2632;
+    width: 100%;
+    background-color: #1c2632;  
 }
 /* Navbar Section Start */
 .navbar {
-    width: 98vw;
+    width: 97%;
     height: 41px;
     margin: auto;
     background-color: #1c2632;
@@ -468,3 +474,33 @@ body {
 .navbar a:hover {
     border: 1px solid rgb(62, 61, 61);
 }
+
+/* Image Slider Section Start */ 
+.m-container .img-slider {
+    width: 97%;
+    margin: auto;
+    position: relative;
+}
+.m-container .img-slider .slides {
+    display: none;
+} 
+.m-container .img-slider .slides img {
+    max-width: 100%;
+    height: auto;
+}
+.m-container .img-slider .prevArrw, .nextArrw {
+    position: absolute;
+    top: 15%;
+    width: 20px;   
+    cursor: pointer;
+}
+.img-slider .prevArrw {
+    left: 22px;
+}
+.img-slider .nextArrw {
+    right: 42px;  
+}
+.img-slider .prevArrw img, .nextArrw img {
+    width: 35px;
+}
+

@@ -18,3 +18,24 @@ window.onclick = function(event) {
     }
 }
 
+let imgSlideIndex = 1;
+showSlides(imgSlideIndex);
+
+function showSlides(index) {
+    let imgSlides = document.getElementsByClassName("slides");
+    if(index > imgSlides.length) {
+        imgSlideIndex = 1;
+    }
+    if(index < 1) {
+        imgSlideIndex = imgSlides.length;
+    }
+    for(let i = 0; i < imgSlides.length; i++) {
+        imgSlides[i].style.display = "none";
+    }
+    imgSlides[imgSlideIndex - 1].style.display = "block";
+}
+function pnSlides(index) {
+    showSlides(imgSlideIndex += index);
+}
+
+
