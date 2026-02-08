@@ -746,3 +746,48 @@ body, html {
     color: white;
 }
 
+/* Row 5 Start */
+.inner-container .row5 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 346px 346px 346px 346px;
+    gap: 20px;
+}
+.inner-container .row5 .cols {
+    background-color: #181a1b;
+    padding: 20px;
+    height: 420px;
+}
+.inner-container .row5 .cols h2 {
+    color: #dedbd7;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.inner-container .row5 .cols p {
+    color: #dedbd7;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.inner-container .row5 .cols .blText {
+    color: #5985a9;
+    font-size: 13px;
+    cursor: pointer;
+}
+.inner-container .row5 .cols .blText:hover {
+    color: #dedbd7;
+}
+.inner-container .row5 .cols .home-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.inner-container .row5 .cols .home-flex div {
+    margin-bottom: 10px;
+}
+.inner-container .row5 .cols .home-flex img {
+    width: 145px;
+    height: 121px;
+}
