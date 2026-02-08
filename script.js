@@ -78,5 +78,48 @@ const swiper2 = new Swiper('#swiper2', {
 });
 
 
+/* Row 6 Image Slider */
+const swiper3 = new Swiper('#swiper3', {
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 'auto',
+  
+  spaceBetween: 1,
+  watchOverflow: true,
+  freeMode: false,
+  resistance: false,
+   
+  navigation: {
+    prevEl: '#prev3',
+    nextEl: '#next3',
+    
+  },
+   
+});
+
+/* Row 7 Image Slider */
+const swiper4 = new Swiper('#swiper4', {
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 'auto',
+  
+  spaceBetween: 1,
+  watchOverflow: true,
+  freeMode: false,
+  resistance: false,
+   
+  navigation: {
+    prevEl: '#prev4',
+    nextEl: '#next4',
+    
+  },
+   
+});
+
+
+
+
+
+
 
 
