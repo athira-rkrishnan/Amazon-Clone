@@ -12,6 +12,7 @@ body {
 body, html {
      overflow-x:hidden;
 } 
+
 /* Header Section Start */
 .header {
     width: 100vw;
@@ -512,7 +513,7 @@ body, html {
 .inner-container {
     width: 94%;
     margin: auto;
-    /*background-color: rgb(98, 98, 32);*/
+   /* background-color: rgb(98, 98, 32); */
 }
 /* Row 1 Start */
 .inner-container .row1 {    
@@ -532,7 +533,7 @@ body, html {
 /* Row 2 Start */
 .inner-container .row2 {
     margin-top: 20px;
-    /*background-color: green;*/
+   /* background-color: green; */
     display: grid;
     grid-template-columns: 346px 346px 346px 346px;
     gap: 20px;
@@ -542,9 +543,9 @@ body, html {
     padding: 20px;
     height: 410px;
 }
-.inner-container .row2 .cols h3 {
+.inner-container .row2 .cols h2 {
     color: #dedbd7;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 14px;
 }
@@ -600,4 +601,148 @@ body, html {
 .inner-container .row2 .col3 .ksm-flx img {
     width: 100px;
 }
-/* Row 3 Start */
+
+/* Row 3 Start  */
+.inner-container .row3 {
+   background-color: #181a1b;
+    margin-top: 20px;
+    padding: 20px;
+}
+.inner-container .row3 h2 {
+    color: #dedbd7;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.inner-container .row3 .carousel-wrapper {
+    position: relative;
+}
+.inner-container .row3 .carousel-wrapper .swiper {
+    /*background-color: rgb(47, 115, 167); */
+    background-color: #181a1b;
+    max-width: 1500px;
+    height: 227px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.inner-container .row3 .carousel-wrapper .swiper .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.inner-container .row3 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
+    min-width: 145px;
+    max-width: 280px;
+    min-height: 200px;
+    max-height: 210px;
+    display: flex;
+    align-items: center;   
+}
+.inner-container .row3 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.inner-container .row3 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
+    background-color: orange;
+    padding: 40px 18px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+    max-width: 34px;
+    width: 100%;
+}
+.inner-container .row3 .carousel-wrapper div.swiper-button-prev {
+    left: 0;
+    top: 42%; 
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.inner-container .row3 .carousel-wrapper div.swiper-button-next {
+    right: 0;
+    top: 42%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.inner-container .row3 .carousel-wrapper div i {
+    font-size: 30px;
+    color: white;
+}
+
+/* Row 4 Start */
+.inner-container .row4 {
+   background-color: #181a1b;
+    margin-top: 20px;
+    padding: 20px;
+}
+.inner-container .row4 h2 {
+    color: #dedbd7;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.inner-container .row4 .carousel-wrapper {
+    position: relative;
+}
+.inner-container .row4 .carousel-wrapper .swiper {
+    /*background-color: rgb(47, 115, 167); */
+    background-color: #181a1b;
+    max-width: 1500px;
+    height: 227px;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.inner-container .row4 .carousel-wrapper .swiper .swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.inner-container .row4 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
+    min-width: 145px;
+    max-width: 280px;
+    min-height: 200px;
+    max-height: 210px;
+    display: flex;
+    align-items: center;   
+}
+.inner-container .row4 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.inner-container .row4 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
+    background-color: orange;
+    padding: 40px 18px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+    max-width: 34px;
+    width: 100%;
+}
+.inner-container .row4 .carousel-wrapper div.swiper-button-prev {
+    left: 0;
+    top: 42%; 
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.inner-container .row4 .carousel-wrapper div.swiper-button-next {
+    right: 0;
+    top: 42%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.inner-container .row4 .carousel-wrapper div i {
+    font-size: 30px;
+    color: white;
+}
+

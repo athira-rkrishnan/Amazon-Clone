@@ -38,4 +38,45 @@ function pnSlides(index) {
     showSlides(imgSlideIndex += index);
 }
 
+/* Image Carousel Sliders using Swiper */
+/* Row 3 Image Slider */
+const swiper1 = new Swiper('#swiper1', {
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 'auto',
+  
+  spaceBetween: 1,
+  watchOverflow: true,
+  freeMode: false,
+  resistance: false,
+   
+  navigation: {
+    prevEl: '#prev1',
+    nextEl: '#next1',
+    
+  },
+   
+});
+
+/* Row 4 Image Slider */
+const swiper2 = new Swiper('#swiper2', {
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 'auto',
+  
+  spaceBetween: 1,
+  watchOverflow: true,
+  freeMode: false,
+  resistance: false,
+   
+  navigation: {
+    prevEl: '#prev2',
+    nextEl: '#next2',
+    
+  },
+   
+});
+
+
+
 
