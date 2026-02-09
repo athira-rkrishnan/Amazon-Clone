@@ -12,10 +12,12 @@ body {
 body, html {
      overflow-x:hidden;
 } 
-
+.Container {
+    width: 100vw;
+}
 /* Header Section Start */
 .header {
-    width: 100vw;
+    width: 100%;
     height: 63px;
     background-color: #0f141a; 
     display: flex;
@@ -83,7 +85,7 @@ body, html {
 }
 .searchbox {
     display: flex;
-    width: 874px;
+    width: 850px;
     height: 40px;  
 }
 .searchbox .dropdown1 .dropdown-content1 {
@@ -1058,7 +1060,7 @@ body, html {
 
 /* Row 10 Start  */
 .inner-container .row10 {
-   background-color: #181a1b;
+    background-color: #181a1b;
     margin-top: 20px;
     padding: 20px;
 }
@@ -1259,7 +1261,7 @@ body, html {
     width: 98%;
     height: 140px;
     padding: 42px 0px 30px 0px;
-    margin-left: 4px;
+    margin-left: 7px;
     margin-right: 0px;
     display: flex;
     flex-direction: column;
@@ -1393,10 +1395,10 @@ body, html {
 .footer2 .footer-container {
     width: 70%;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(7, auto);
-    gap: 38px;
+    gap: 21px 24px;
 }
 .footer2 .footer-container .f2Cols ul {
     list-style: none;
