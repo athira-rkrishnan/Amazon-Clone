@@ -1315,16 +1315,12 @@ body, html {
     background-color: #1c2632;
 }
 .footer1 .footerContainer {
-    background-color: rgb(45, 126, 45);
     width: 70%;
     margin: auto;
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 154px 195px 240px 150px;
     gap: 100px;
-}
-.footer1 .footerContainer .fCols {
-    background-color: rgb(195, 93, 82);
 }
 .footer1 .footerContainer .fCols ul {
     list-style: none;
@@ -1337,7 +1333,7 @@ body, html {
 .footer1 .footerContainer .fCols ul li {
     padding: 5px 0px;
     font-size: 15px;
-    color: #8d8f90;
+    color: #c2c5c5;
 }
 .footer1 hr {
     border: none;
@@ -1386,5 +1382,61 @@ body, html {
     width: 25px;
     margin-top: 0px;
     margin-right: 10px;
+}
+
+/* Footer Section 2 Start */
+.footer2 {
+    width: 100%;
+    padding-top: 50px;
+    background-color: #0f151b;
+}
+.footer2 .footer-container {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 38px;
+}
+.footer2 .footer-container .f2Cols ul {
+    list-style: none;
+}
+.footer2 .footer-container .f2Cols ul li {
+    font-size: 13px;
+    font-weight: 500;
+    color: #adacab;
+    padding: 1px;
+}
+.footer2 .footer-container .f2Cols ul li:hover {
+    text-decoration: underline;
+}
+.footer2 .footer-container .f2Cols li.fHead {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(205, 204, 204);
+}
+.footer2 .footer-container .footerCol22 {
+    grid-column-start: 2;
+}
+.footer2 .copyRt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(183, 176, 176);
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.footer2 .copyRt .copySec {
+    margin-bottom: 6px;
+}
+.footer2 .copyRt .copySec span {
+    margin-right: 10px;
+}
+.footer2 .copyRt .copySec span img {
+    width: 32px;
+    margin-top: 22px;
+    margin-bottom: -6px;
 }
 
