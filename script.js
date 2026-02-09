@@ -154,6 +154,28 @@ const swiper6 = new Swiper('#swiper6', {
    
 });
 
+/* Row 12 Image Slider */
+const swiper7 = new Swiper('#swiper7', {
+  direction: 'horizontal',
+  loop: false,
+  slidesPerView: 'auto',
+  
+  spaceBetween: 1,
+  watchOverflow: true,
+  freeMode: false,
+  resistance: false,
+   
+  navigation: {
+    prevEl: '#prev7',
+    nextEl: '#next7',
+    
+  },
+   
+});
+
+
+
+
 
 
 
