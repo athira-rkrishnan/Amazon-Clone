@@ -253,6 +253,10 @@ body, html {
 .dropdown2 .dropdown-content2 .shoptxt {
     margin-bottom: 18px;
 }
+.dropdown2 .dropdown-content2 .shoptxt img {
+    width: 20px;
+    margin-right: 6px;
+}
 .dropdown2 .dropdown-content2 a.cntrytxt {
     padding-left: 14px;
 }
@@ -735,14 +739,15 @@ body, html {
 .inner-container .row3 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+ /*   justify-content: center;
+    gap: 10px; */
 }
 .inner-container .row3 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    min-width: 145px;
+    /*min-width: 145px;
     max-width: 280px;
     min-height: 200px;
-    max-height: 210px;
+    max-height: 210px; */
+    width: auto;
     display: flex;
     align-items: center;   
 }
@@ -1281,7 +1286,7 @@ body, html {
 
 /* Row 12 Start  */
 .inner-container .row12 {
-   background-color: #181a1b;
+    background-color: #181a1b;
     margin-top: 20px;
     padding: 20px;
 }
@@ -1385,6 +1390,7 @@ body, html {
     margin-bottom: 6px;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 .person-sect .person-container p {
     font-size: 12px;
@@ -1397,6 +1403,7 @@ body, html {
 .person-sect .person-container p a:hover {
     color: white;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Back To Top Section Start */
@@ -1435,10 +1442,18 @@ body, html {
     font-weight: bold;
     color: white;
 }
+.footer1 .footerContainer .fCols .fHead:hover {
+    text-decoration: none;
+    cursor: default;
+}
 .footer1 .footerContainer .fCols ul li {
     padding: 5px 0px;
     font-size: 15px;
     color: #c2c5c5;
+}
+.footer1 .footerContainer .fCols ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 .footer1 hr {
     border: none;
@@ -1453,11 +1468,13 @@ body, html {
     justify-content: center;
     align-items: center;
     gap: 7px;
+    position: relative;
 }
 .footer1 .rupLoc img {
     width: 100px;
     margin-top: 10px;
     margin-right: 80px;
+    cursor: pointer;
 }
 .footer1 .rupLoc span {
     border: 1px solid gray;
@@ -1468,6 +1485,7 @@ body, html {
     font-size: 13px;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
 }
 .footer1 .rupLoc span i {
     font-size: 12px;
@@ -1487,6 +1505,68 @@ body, html {
     width: 25px;
     margin-top: 0px;
     margin-right: 10px;
+}
+.footer1 .rupLoc span.selBox .uparrw {
+    position: absolute;
+    top: 59px;
+    left: 736px;
+    color: gray;
+    display: none; 
+}
+.footer1 .rupLoc span.selBox .dropdown-content4 {
+    min-width: 235px;
+    height: 360px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #181a1b;
+    color: rgb(171, 166, 166);
+    position: absolute;
+    top: 66px;
+    left: 637px;
+    display: none;  
+    z-index: 1;
+}
+.footer1 .rupLoc span.selBox:hover .dropdown-content4 {
+    display: block;
+} 
+.footer1 .rupLoc span.selBox:hover .uparrw {
+    display: block;
+} 
+.footer1 .rupLoc .dropdown-content4 input[type = "radio"] {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.footer1 .rupLoc .dropdown-content4 ul {
+    list-style: none;
+    padding: 7px 0;
+}
+.footer1 .rupLoc .dropdown-content4 ul li {
+    padding: 7px 0;
+}
+.footer1 .rupLoc .dropdown-content4 ul li label {
+    text-decoration: none;
+    color: rgb(171, 166, 166);
+    margin-left: 5px;
+    cursor: pointer;
+}
+.footer1 .rupLoc .dropdown-content4 ul li label:hover {
+    color: #8d5001;
+    text-decoration: underline;
+}
+.footer1 .rupLoc .dropdown-content4 .unorder {
+    margin-top: 0px;
+}
+.footer1 .rupLoc.dropdown-content4 hr {
+    border: none;
+    outline: none;
+    height: 1px;
+    width: 170px;
+    margin: 8px 0;
+    background-color: #2c3032;
 }
 
 /* Footer Section 2 Start */
@@ -1514,6 +1594,7 @@ body, html {
 }
 .footer2 .footer-container .f2Cols ul li:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 .footer2 .footer-container .f2Cols li.fHead {
     font-size: 13px;
@@ -1543,5 +1624,9 @@ body, html {
     width: 32px;
     margin-top: 22px;
     margin-bottom: -6px;
+}
+.footer2 .copyRt .copySec .cpyTxt:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 

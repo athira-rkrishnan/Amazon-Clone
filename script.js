@@ -67,12 +67,17 @@ function pnSlides(index) {
 const swiper1 = new Swiper('#swiper1', {
   direction: 'horizontal',
   loop: false,
+  centeredSlides: false,
+  centeredSlidesBounds: true,
+  loopFillGroupBlank: false,
   slidesPerView: 'auto',
-  
-  spaceBetween: 1,
+  slidesOffsetAfter: 0,
   watchOverflow: true,
+  spaceBetween: 10,
+
+  /*
   freeMode: false,
-  resistance: false,
+  resistance: false,*/
    
   navigation: {
     prevEl: '#prev1',
