@@ -8,6 +8,7 @@
 body {
     width: 100vw;
     font-family:Arial, Helvetica, sans-serif;
+    scrollbar-color: #787575 #181a1b;
 }
 body, html {
      overflow-x:hidden;
@@ -533,7 +534,7 @@ body, html {
 }
 .sidebarNav .innerSide ul li {
     font-size: 14px;
-    color: rgb(171, 166, 166);
+    color: rgb(184, 180, 180);
     padding: 13px 29px;
     cursor: pointer;
     transition: 0.5s;
@@ -714,7 +715,7 @@ body, html {
 
 /* Row 3 Start  */
 .inner-container .row3 {
-   background-color: #181a1b;
+    background-color: #181a1b;
     margin-top: 20px;
     padding: 20px;
 }
@@ -758,9 +759,8 @@ body, html {
     display: block;
 }
 .inner-container .row3 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
-    background-color: orange;
+    background-color: #181a1b;
     padding: 40px 18px;
-    color: white;
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -782,12 +782,12 @@ body, html {
 }
 .inner-container .row3 .carousel-wrapper div i {
     font-size: 30px;
-    color: white;
+    color: #787575;
 }
 
 /* Row 4 Start */
 .inner-container .row4 {
-   background-color: #181a1b;
+    background-color: #181a1b;
     margin-top: 20px;
     padding: 20px;
 }
@@ -812,14 +812,15 @@ body, html {
 .inner-container .row4 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+   /* justify-content: center;
+    gap: 10px;  */
 }
 .inner-container .row4 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    min-width: 145px;
+ /*   min-width: 145px;
     max-width: 280px;
     min-height: 200px;
-    max-height: 210px;
+    max-height: 210px;  */
+    width: auto;
     display: flex;
     align-items: center;   
 }
@@ -830,9 +831,8 @@ body, html {
     display: block;
 }
 .inner-container .row4 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
-    background-color: orange;
+    background-color: #181a1b;
     padding: 40px 18px;
-    color: white;
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -854,7 +854,7 @@ body, html {
 }
 .inner-container .row4 .carousel-wrapper div i {
     font-size: 30px;
-    color: white;
+    color: #787575;
 }
 
 /* Row 5 Start */
@@ -930,14 +930,15 @@ body, html {
 .inner-container .row6 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+  /*  justify-content: center;
+    gap: 10px;  */
 }
 .inner-container .row6 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    min-width: 145px;
+  /*  min-width: 145px;
     max-width: 280px;
     min-height: 200px;
-    max-height: 210px;
+    max-height: 210px;   */
+    width: auto;
     display: flex;
     align-items: center;   
 }
@@ -948,9 +949,8 @@ body, html {
     display: block;
 }
 .inner-container .row6 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
-    background-color: orange;
+    background-color: #181a1b;
     padding: 40px 18px;
-    color: white;
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -972,12 +972,12 @@ body, html {
 }
 .inner-container .row6 .carousel-wrapper div i {
     font-size: 30px;
-    color: white;
+    color: #787575;
 }
 
 /* Row 7 Start  */
 .inner-container .row7 {
-   background-color: #181a1b;
+    background-color: #181a1b;
     margin-top: 20px;
     padding: 20px;
 }
@@ -1002,14 +1002,15 @@ body, html {
 .inner-container .row7 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+ /*   justify-content: center;
+    gap: 10px;   */
 }
 .inner-container .row7 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    min-width: 145px;
+ /*   min-width: 145px;
     max-width: 280px;
     min-height: 200px;
-    max-height: 210px;
+    max-height: 210px;  */
+    width: auto;
     display: flex;
     align-items: center;   
 }
@@ -1020,9 +1021,8 @@ body, html {
     display: block;
 }
 .inner-container .row7 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
-    background-color: orange;
+    background-color: #181a1b;
     padding: 40px 18px;
-    color: white;
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -1044,7 +1044,7 @@ body, html {
 }
 .inner-container .row7 .carousel-wrapper div i {
     font-size: 30px;
-    color: white;
+    color: #787575;
 }
 
 /* Row 8 Start */
@@ -1096,7 +1096,7 @@ body, html {
 
 /* Row 9 Start  */
 .inner-container .row9 {
-   background-color: #181a1b;
+    background-color: #181a1b;
     margin-top: 20px;
     padding: 20px;
 }
@@ -1121,14 +1121,15 @@ body, html {
 .inner-container .row9 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+ /*   justify-content: center;
+    gap: 10px;  */
 }
 .inner-container .row9 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    min-width: 145px;
+/*    min-width: 145px;
     max-width: 280px;
     min-height: 200px;
-    max-height: 210px;
+    max-height: 210px;  */
+    width: auto;
     display: flex;
     align-items: center;   
 }
@@ -1139,9 +1140,8 @@ body, html {
     display: block;
 }
 .inner-container .row9 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
-    background-color: orange;
+    background-color: #181a1b;
     padding: 40px 18px;
-    color: white;
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -1163,7 +1163,7 @@ body, html {
 }
 .inner-container .row9 .carousel-wrapper div i {
     font-size: 30px;
-    color: white;
+    color: #787575;
 }
 
 /* Row 10 Start  */
@@ -1193,14 +1193,15 @@ body, html {
 .inner-container .row10 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+ /*   justify-content: center;
+    gap: 10px;   */
 }
 .inner-container .row10 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    min-width: 145px;
+ /*   min-width: 145px;
     max-width: 280px;
     min-height: 200px;
-    max-height: 210px;
+    max-height: 210px;    */
+    width: auto;
     display: flex;
     align-items: center;   
 }
@@ -1211,9 +1212,8 @@ body, html {
     display: block;
 }
 .inner-container .row10 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
-    background-color: orange;
+    background-color: #181a1b;
     padding: 40px 18px;
-    color: white;
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -1235,7 +1235,7 @@ body, html {
 }
 .inner-container .row10 .carousel-wrapper div i {
     font-size: 30px;
-    color: white;
+    color: #787575;
 }
 
 /* Row 11 Start */
@@ -1311,14 +1311,15 @@ body, html {
 .inner-container .row12 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+ /*   justify-content: center;
+    gap: 10px;   */
 }
 .inner-container .row12 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    min-width: 145px;
+ /*   min-width: 145px;
     max-width: 280px;
     min-height: 200px;
-    max-height: 210px;
+    max-height: 210px;    */
+    width: auto;
     display: flex;
     align-items: center;   
 }
@@ -1329,9 +1330,8 @@ body, html {
     display: block;
 }
 .inner-container .row12 .carousel-wrapper div.swiper-button-prev, div.swiper-button-next {
-    background-color: orange;
+    background-color: #181a1b;
     padding: 40px 18px;
-    color: white;
     position: absolute;
     cursor: pointer;
     user-select: none;
@@ -1353,7 +1353,7 @@ body, html {
 }
 .inner-container .row12 .carousel-wrapper div i {
     font-size: 30px;
-    color: white;
+    color: #787575;
 }
 
 /* Personalized Section Start */

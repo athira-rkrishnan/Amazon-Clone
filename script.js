@@ -74,10 +74,6 @@ const swiper1 = new Swiper('#swiper1', {
   slidesOffsetAfter: 0,
   watchOverflow: true,
   spaceBetween: 10,
-
-  /*
-  freeMode: false,
-  resistance: false,*/
    
   navigation: {
     prevEl: '#prev1',
@@ -90,12 +86,13 @@ const swiper1 = new Swiper('#swiper1', {
 const swiper2 = new Swiper('#swiper2', {
   direction: 'horizontal',
   loop: false,
+  centeredSlides: false,
+  centeredSlidesBounds: true,
+  loopFillGroupBlank: false,
   slidesPerView: 'auto',
-  
-  spaceBetween: 1,
+  slidesOffsetAfter: 0,
   watchOverflow: true,
-  freeMode: false,
-  resistance: false,
+  spaceBetween: 10,
    
   navigation: {
     prevEl: '#prev2',
@@ -109,12 +106,13 @@ const swiper2 = new Swiper('#swiper2', {
 const swiper3 = new Swiper('#swiper3', {
   direction: 'horizontal',
   loop: false,
+  centeredSlides: false,
+  centeredSlidesBounds: true,
+  loopFillGroupBlank: false,
   slidesPerView: 'auto',
-  
-  spaceBetween: 1,
+  slidesOffsetAfter: 0,
   watchOverflow: true,
-  freeMode: false,
-  resistance: false,
+  spaceBetween: 10,
    
   navigation: {
     prevEl: '#prev3',
@@ -127,12 +125,13 @@ const swiper3 = new Swiper('#swiper3', {
 const swiper4 = new Swiper('#swiper4', {
   direction: 'horizontal',
   loop: false,
+  centeredSlides: false,
+  centeredSlidesBounds: true,
+  loopFillGroupBlank: false,
   slidesPerView: 'auto',
-  
-  spaceBetween: 1,
+  slidesOffsetAfter: 0,
   watchOverflow: true,
-  freeMode: false,
-  resistance: false,
+  spaceBetween: 10,
    
   navigation: {
     prevEl: '#prev4',
@@ -145,12 +144,13 @@ const swiper4 = new Swiper('#swiper4', {
 const swiper5 = new Swiper('#swiper5', {
   direction: 'horizontal',
   loop: false,
+  centeredSlides: false,
+  centeredSlidesBounds: true,
+  loopFillGroupBlank: false,
   slidesPerView: 'auto',
-  
-  spaceBetween: 1,
+  slidesOffsetAfter: 0,
   watchOverflow: true,
-  freeMode: false,
-  resistance: false,
+  spaceBetween: 10,
    
   navigation: {
     prevEl: '#prev5',
@@ -163,12 +163,13 @@ const swiper5 = new Swiper('#swiper5', {
 const swiper6 = new Swiper('#swiper6', {
   direction: 'horizontal',
   loop: false,
+  centeredSlides: false,
+  centeredSlidesBounds: true,
+  loopFillGroupBlank: false,
   slidesPerView: 'auto',
-  
-  spaceBetween: 1,
+  slidesOffsetAfter: 0,
   watchOverflow: true,
-  freeMode: false,
-  resistance: false,
+  spaceBetween: 10,
    
   navigation: {
     prevEl: '#prev6',
@@ -181,12 +182,13 @@ const swiper6 = new Swiper('#swiper6', {
 const swiper7 = new Swiper('#swiper7', {
   direction: 'horizontal',
   loop: false,
+  centeredSlides: false,
+  centeredSlidesBounds: true,
+  loopFillGroupBlank: false,
   slidesPerView: 'auto',
-  
-  spaceBetween: 1,
+  slidesOffsetAfter: 0,
   watchOverflow: true,
-  freeMode: false,
-  resistance: false,
+  spaceBetween: 10,
    
   navigation: {
     prevEl: '#prev7',
@@ -194,6 +196,9 @@ const swiper7 = new Swiper('#swiper7', {
   },
    
 });
+
+
+
 
 
 
