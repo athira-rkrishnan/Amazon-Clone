@@ -14,6 +14,7 @@ body, html {
 } 
 .Container {
     width: 100vw;
+    background-color: rgb(63, 135, 199);
 }
 /* Header Section Start */
 .header {
@@ -476,6 +477,108 @@ body, html {
 .navbar a:hover {
     border: 1px solid rgb(62, 61, 61);
 }
+.sidebarNav {
+    position: fixed;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.sidebarNav .hello {
+    height: 45px;
+    background-color: #1c2632;
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 28px;
+    position: relative;
+}
+.sidebarNav .hello i {
+    font-size: 23px;
+}
+.sidebarNav .hello p {
+    margin: 0px 10px;
+}
+.sidebarNav .hello a {
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 3px;
+    border-radius: 3px;
+    position: absolute;
+    left: 357px;
+}
+.sidebarNav .innerSide {
+    background-color: #181a1b;
+    height: 94vh;
+    overflow: scroll;
+    z-index: 10;
+}
+.sidebarNav .innerSide ul {
+    padding: 15px 0px 6px 0px;
+}
+.sidebarNav .innerSide ul h2 {
+    font-size: 18px;
+    color: white;
+    padding: 13px 29px;
+}
+.sidebarNav .innerSide ul li {
+    font-size: 14px;
+    color: rgb(171, 166, 166);
+    padding: 13px 29px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sidebarNav .innerSide ul li:hover {
+    background-color: #404141; 
+}
+.sidebarNav .innerSide ul li i {
+    float: right;
+}
+.sidebarNav .innerSide ul li:hover i {
+    color: black;
+}
+.sidebarNav .innerSide ul li .fa-globe {
+    float: left;
+    margin-right: 15px;
+}
+.sidebarNav .innerSide ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+.sidebarNav .innerSide hr {
+    border: none;
+    outline: none;
+    height: 1px;
+    margin: 8px 0;
+    background-color: rgb(88, 85, 85);
+}
+.sidebarNav .innerSide ul:last-child {
+    padding-bottom: 30px;
+}
+.no-scroll {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+}
+.black-overlay {
+    position: fixed;
+    top: 0;
+    left: 350px;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
 
 /* Main Container Section Start */
 .m-container {

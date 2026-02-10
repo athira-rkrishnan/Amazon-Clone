@@ -169,13 +169,57 @@
 <!-- Navbar Section Start -->
     <div class = "nav-container">
         <div class = "navbar">
-            <button><i class="fa-solid fa-bars"></i><span>All</span></button>
+            <button onclick = "openSidebar()"><i class="fa-solid fa-bars"></i><span>All</span></button>
             <a href = "#">Today's Deals</a>
             <a href = "#">Prime Video</a>
             <a href = "#">Registry</a>
             <a href = "#">Gift Cards</a>
             <a href = "#">Customer Service</a>
             <a href = "#">Sell</a>
+        </div>
+    </div>
+    <div class = "black-overlay" id = "black" onclick = "closeNav()"></div>
+    <div class = "sidebarNav" id = "sideNav">
+        <div class = "hello">
+            <i class="fa-solid fa-circle-user"></i>
+            <p>Hello, sign in</p>
+            <a onclick = "closeSidebar()"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div class = "innerSide">
+            <ul>
+                <h2>Digital Content & Devices</h2>
+                <li>Prime Video<i class="fa-solid fa-angle-right"></i></li>
+                <li>Amazon Music<i class="fa-solid fa-angle-right"></i></li>
+                <li>Kindle E-readers & Books<i class="fa-solid fa-angle-right"></i></li>
+                <li>Amazon Appstore<i class="fa-solid fa-angle-right"></i></li>
+            </ul>
+            <hr>
+            <ul>
+                <h2>Shop by Department</h2>
+                <li>Electronics<i class="fa-solid fa-angle-right"></i></li>
+                <li>Computers<i class="fa-solid fa-angle-right"></i></li>
+                <li>Smart Home<i class="fa-solid fa-angle-right"></i></li>
+                <li>Arts & Crafts<i class="fa-solid fa-angle-right"></i></li>
+                <li>See all<i class="fa-solid fa-angle-down"></i></li>
+            </ul>
+            <hr>
+            <ul>
+                <h2>Programs & Features</h2>
+                <li>Gift Cards<i class="fa-solid fa-angle-right"></i></li>
+                <li>Shop By Interest</li>
+                <li>Amazon Live<i class="fa-solid fa-angle-right"></i></li>
+                <li>International Shopping<i class="fa-solid fa-angle-right"></i></li>
+                <li>See all<i class="fa-solid fa-angle-down"></i></li>
+            </ul>
+            <hr>
+            <ul>
+                <h2>Help & Settings</h2>
+                <li>Your Account</li>
+                <li><i class="fa-solid fa-globe"></i>English</li>
+                <li><img src = "images/usflag.png">United States</li>
+                <li>Customer Service</li>
+                <li>Sign in</li>
+            </ul>
         </div>
     </div>
 <!-- Navbar Section End -->
@@ -1356,3 +1400,4 @@
     
 </body>
 </html>
+
