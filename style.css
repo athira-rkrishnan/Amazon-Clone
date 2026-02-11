@@ -15,6 +15,8 @@ body, html {
 } 
 .Container {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(63, 135, 199);
 }
 /* Header Section Start */
@@ -588,7 +590,7 @@ body, html {
 /* Main Container Section Start */
 .m-container {
     width: 100%;
-    background-color: #272a2c;
+    background-color: #272a2c; 
 }
 /* Image Slider Section Start */ 
 .m-container .img-slider {
@@ -624,7 +626,14 @@ body, html {
     width: 94%;
     margin: auto;
     padding-bottom: 20px;
+    position: absolute;
+    top: 53%;
+    left: 60%;
+    transform: translateX(-60%);
    /* background-color: rgb(98, 98, 32); */
+}
+.inner-container > div {
+    width: 100%;
 }
 /* Row 1 Start */
 .inner-container .row1 {    
@@ -646,8 +655,8 @@ body, html {
     margin-top: 20px;
    /* background-color: green; */
     display: grid;
-    grid-template-columns: 346px 346px 346px 346px;
-    gap: 20px;
+    grid-template-columns: 345px 345px 345px 345px;
+    gap: 16px;
 }
 .inner-container .row2 .cols {
     background-color: #181a1b;
@@ -861,8 +870,8 @@ body, html {
 .inner-container .row5 {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 346px 346px 346px 346px;
-    gap: 20px;
+    grid-template-columns: 345px 345px 345px 345px;
+    gap: 16px;
 }
 .inner-container .row5 .cols {
     background-color: #181a1b;
@@ -1051,8 +1060,8 @@ body, html {
 .inner-container .row8 {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 346px 346px 346px 346px;
-    gap: 20px;
+    grid-template-columns: 345px 345px 345px 345px;
+    gap: 16px;
 }
 .inner-container .row8 .cols {
     background-color: #181a1b;
@@ -1242,8 +1251,8 @@ body, html {
 .inner-container .row11 {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 346px 346px 346px 346px;
-    gap: 20px;
+    grid-template-columns: 345px 345px 345px 345px;
+    gap: 16px;
 }
 .inner-container .row11 .cols {
     background-color: #181a1b;
@@ -1354,6 +1363,11 @@ body, html {
 .inner-container .row12 .carousel-wrapper div i {
     font-size: 30px;
     color: #787575;
+}
+
+
+.downSect {
+    margin-top: 3760px;
 }
 
 /* Personalized Section Start */
