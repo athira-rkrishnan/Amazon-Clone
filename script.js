@@ -197,10 +197,11 @@ const swiper7 = new Swiper('#swiper7', {
    
 });
 
-
-
-
-
+/* Back To Top Function */
+function goToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 
 
