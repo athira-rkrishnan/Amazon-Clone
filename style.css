@@ -11,14 +11,14 @@ body {
     scrollbar-color: #787575 #181a1b;
 }
 body, html {
-     overflow-x:hidden;
+    overflow-x:hidden;
 } 
 .Container {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: rgb(63, 135, 199);
 }
+
 /* Header Section Start */
 .header {
     width: 100%;
@@ -586,7 +586,6 @@ body, html {
     display: none;
 }
 
-
 /* Main Container Section Start */
 .m-container {
     width: 100%;
@@ -597,6 +596,15 @@ body, html {
     width: 97%;
     margin: auto;
     position: relative;
+    cursor: pointer;
+}
+.m-container .img-slider .grayOverlay {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(39, 42, 44, 1));
 }
 .m-container .img-slider .slides {
     display: none;
@@ -630,10 +638,6 @@ body, html {
     top: 53%;
     left: 60%;
     transform: translateX(-60%);
-   /* background-color: rgb(98, 98, 32); */
-}
-.inner-container > div {
-    width: 100%;
 }
 /* Row 1 Start */
 .inner-container .row1 {    
@@ -650,10 +654,10 @@ body, html {
     color: white;
     text-decoration: underline;
 }
+
 /* Row 2 Start */
 .inner-container .row2 {
     margin-top: 20px;
-   /* background-color: green; */
     display: grid;
     grid-template-columns: 345px 345px 345px 345px;
     gap: 16px;
@@ -738,7 +742,6 @@ body, html {
     position: relative;
 }
 .inner-container .row3 .carousel-wrapper .swiper {
-    /*background-color: rgb(47, 115, 167); */
     background-color: #181a1b;
     max-width: 1500px;
     height: 227px;
@@ -749,14 +752,8 @@ body, html {
 .inner-container .row3 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
- /*   justify-content: center;
-    gap: 10px; */
 }
 .inner-container .row3 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-    /*min-width: 145px;
-    max-width: 280px;
-    min-height: 200px;
-    max-height: 210px; */
     width: auto;
     display: flex;
     align-items: center;   
@@ -778,13 +775,13 @@ body, html {
     width: 100%;
 }
 .inner-container .row3 .carousel-wrapper div.swiper-button-prev {
-    left: 0;
+    left: -1px;
     top: 42%; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .inner-container .row3 .carousel-wrapper div.swiper-button-next {
-    right: 0;
+    right: -1px;
     top: 42%;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -810,7 +807,6 @@ body, html {
     position: relative;
 }
 .inner-container .row4 .carousel-wrapper .swiper {
-    /*background-color: rgb(47, 115, 167); */
     background-color: #181a1b;
     max-width: 1500px;
     height: 227px;
@@ -821,14 +817,8 @@ body, html {
 .inner-container .row4 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-   /* justify-content: center;
-    gap: 10px;  */
 }
 .inner-container .row4 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
- /*   min-width: 145px;
-    max-width: 280px;
-    min-height: 200px;
-    max-height: 210px;  */
     width: auto;
     display: flex;
     align-items: center;   
@@ -850,13 +840,13 @@ body, html {
     width: 100%;
 }
 .inner-container .row4 .carousel-wrapper div.swiper-button-prev {
-    left: 0;
+    left: -1px;
     top: 42%; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .inner-container .row4 .carousel-wrapper div.swiper-button-next {
-    right: 0;
+    right: -1px;
     top: 42%;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -928,7 +918,6 @@ body, html {
     position: relative;
 }
 .inner-container .row6 .carousel-wrapper .swiper {
-    /*background-color: rgb(47, 115, 167); */
     background-color: #181a1b;
     max-width: 1500px;
     height: 227px;
@@ -939,14 +928,8 @@ body, html {
 .inner-container .row6 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
-  /*  justify-content: center;
-    gap: 10px;  */
 }
 .inner-container .row6 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-  /*  min-width: 145px;
-    max-width: 280px;
-    min-height: 200px;
-    max-height: 210px;   */
     width: auto;
     display: flex;
     align-items: center;   
@@ -968,13 +951,13 @@ body, html {
     width: 100%;
 }
 .inner-container .row6 .carousel-wrapper div.swiper-button-prev {
-    left: 0;
+    left: -1px;
     top: 42%; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .inner-container .row6 .carousel-wrapper div.swiper-button-next {
-    right: 0;
+    right: -1px;
     top: 42%;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -1000,7 +983,6 @@ body, html {
     position: relative;
 }
 .inner-container .row7 .carousel-wrapper .swiper {
-    /*background-color: rgb(47, 115, 167); */
     background-color: #181a1b;
     max-width: 1500px;
     height: 227px;
@@ -1011,14 +993,8 @@ body, html {
 .inner-container .row7 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
- /*   justify-content: center;
-    gap: 10px;   */
 }
 .inner-container .row7 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
- /*   min-width: 145px;
-    max-width: 280px;
-    min-height: 200px;
-    max-height: 210px;  */
     width: auto;
     display: flex;
     align-items: center;   
@@ -1040,13 +1016,13 @@ body, html {
     width: 100%;
 }
 .inner-container .row7 .carousel-wrapper div.swiper-button-prev {
-    left: 0;
+    left: -1px;
     top: 42%; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .inner-container .row7 .carousel-wrapper div.swiper-button-next {
-    right: 0;
+    right: -1px;
     top: 42%;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -1102,7 +1078,6 @@ body, html {
     height: 121px;
 }
 
-
 /* Row 9 Start  */
 .inner-container .row9 {
     background-color: #181a1b;
@@ -1119,7 +1094,6 @@ body, html {
     position: relative;
 }
 .inner-container .row9 .carousel-wrapper .swiper {
-    /*background-color: rgb(47, 115, 167); */
     background-color: #181a1b;
     max-width: 1500px;
     height: 227px;
@@ -1130,14 +1104,8 @@ body, html {
 .inner-container .row9 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
- /*   justify-content: center;
-    gap: 10px;  */
 }
 .inner-container .row9 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
-/*    min-width: 145px;
-    max-width: 280px;
-    min-height: 200px;
-    max-height: 210px;  */
     width: auto;
     display: flex;
     align-items: center;   
@@ -1159,13 +1127,13 @@ body, html {
     width: 100%;
 }
 .inner-container .row9 .carousel-wrapper div.swiper-button-prev {
-    left: 0;
+    left: -1px;
     top: 42%; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .inner-container .row9 .carousel-wrapper div.swiper-button-next {
-    right: 0;
+    right: -1px;
     top: 42%;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -1191,7 +1159,6 @@ body, html {
     position: relative;
 }
 .inner-container .row10 .carousel-wrapper .swiper {
-    /*background-color: rgb(47, 115, 167); */
     background-color: #181a1b;
     max-width: 1500px;
     height: 227px;
@@ -1202,14 +1169,8 @@ body, html {
 .inner-container .row10 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
- /*   justify-content: center;
-    gap: 10px;   */
 }
 .inner-container .row10 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
- /*   min-width: 145px;
-    max-width: 280px;
-    min-height: 200px;
-    max-height: 210px;    */
     width: auto;
     display: flex;
     align-items: center;   
@@ -1231,13 +1192,13 @@ body, html {
     width: 100%;
 }
 .inner-container .row10 .carousel-wrapper div.swiper-button-prev {
-    left: 0;
+    left: -1px;
     top: 42%; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .inner-container .row10 .carousel-wrapper div.swiper-button-next {
-    right: 0;
+    right: -1px;
     top: 42%;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -1309,7 +1270,6 @@ body, html {
     position: relative;
 }
 .inner-container .row12 .carousel-wrapper .swiper {
-    /*background-color: rgb(47, 115, 167); */
     background-color: #181a1b;
     max-width: 1500px;
     height: 227px;
@@ -1320,14 +1280,8 @@ body, html {
 .inner-container .row12 .carousel-wrapper .swiper .swiper-wrapper {
     display: flex;
     align-items: center;
- /*   justify-content: center;
-    gap: 10px;   */
 }
 .inner-container .row12 .carousel-wrapper .swiper .swiper-wrapper .swiper-slide {
- /*   min-width: 145px;
-    max-width: 280px;
-    min-height: 200px;
-    max-height: 210px;    */
     width: auto;
     display: flex;
     align-items: center;   
@@ -1349,13 +1303,13 @@ body, html {
     width: 100%;
 }
 .inner-container .row12 .carousel-wrapper div.swiper-button-prev {
-    left: 0;
+    left: -1px;
     top: 42%; 
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 .inner-container .row12 .carousel-wrapper div.swiper-button-next {
-    right: 0;
+    right: -1px;
     top: 42%;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -1365,11 +1319,9 @@ body, html {
     color: #787575;
 }
 
-
 .downSect {
     margin-top: 3760px;
 }
-
 /* Personalized Section Start */
 .person-sect {
     width: 100%;
@@ -1643,4 +1595,6 @@ body, html {
     text-decoration: underline;
     cursor: pointer;
 }
+
+
 
