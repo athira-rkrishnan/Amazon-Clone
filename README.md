@@ -19,26 +19,26 @@ This project is a responsive front-end clone of the Amazon e-commerce website. B
 
 ## Deployment
 This project is hosted on multiple platforms:
-* **GitHub Pages:** [View Demo]
+* **GitHub Pages:** [View Demo](https://athira-rkrishnan.github.io/Amazon-Clone/)
 * **Netlify:**  [View Demo](https://amazon-clone-1a.netlify.app/)
 * **Vercel:**  [View Demo](https://amazon-clone-inky-five.vercel.app/)
 
 ## Responsive Screenshots
-* **Responsive at 480px:**  D:\GitProjects\Amazon Clone\images\Responsive-480px.png
-* **Responsive at 576px:** [View]
-* **Responsive at 768px:** [View]
-* **Responsive at 992px:** [View]
-* **Responsive at >992px:** [View]
+* **Responsive at 480px:** [View](https://github.com/athira-rkrishnan/Amazon-Clone/blob/main/images/Responsive-480px.png?raw=true)
+* **Responsive at 576px:** [View](https://github.com/athira-rkrishnan/Amazon-Clone/blob/main/images/Responsive-576px.png?raw=true)
+* **Responsive at 768px:** [View](https://raw.githubusercontent.com/athira-rkrishnan/Amazon-Clone/bcd871b69d86eb71e6903badd450142216d51ba3/images/Responsive_768px.png)
+* **Responsive at 992px:** [View](https://raw.githubusercontent.com/athira-rkrishnan/Amazon-Clone/main/images/Responsive_992px.png?raw=true)
+* **Responsive at >992px:** [View](https://github.com/athira-rkrishnan/Amazon-Clone/blob/main/images/Responsive-largescreen.png?raw=true)
 
 ## Demo GIF
-* **Amazon Clone Demo:** [View]
+* **Amazon Clone Demo:** [View](https://raw.githubusercontent.com/athira-rkrishnan/Amazon-Clone/bcd871b69d86eb71e6903badd450142216d51ba3/images/AmazonClone-Demo.gif)
 
 ## How to Run Locally 
 **1. Clone the repository:** 
 ```
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/athira-rkrishnan/Amazon-Clone.git
 ```
-**2. Open index.html in your browser.**
+**2. Open** index.html **in your browser.**
 
 ## License 
 This project is for educational purposes. Feel free to modify and use it as needed.
